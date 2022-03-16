@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body>
+     <div id="loginDiv">
+            <input id="inputName" class="inputText" placeholder="Name" type="text" />
+            <input type="button" value="Enter" id="btnEnter" class="btnCustom" />
+    </div>
+<div id="page">
+
+   
+    <div id="userNameDiv" hidden>Username</div>
+    <div id="mainDiv" hidden >
+        <div id="leftDiv">
+            <div id="groupsDiv">
+                <div id="groupsHeaderDiv">
+                 Groups
+                </div>
+                <div id="groupsCreateDiv">
+                    <input placeholder="Group Name" id="inputGroupName" class="inputText"  type="text" />
+                    <input type="button" value="Add" id="btnGroupCreate" class="btnCustom"  />
+                </div>
+                <div id="groupsListDiv">
+                    <div class="groupDiv">
+                        <div class="groupNameDiv">
+                        Test Group
+                        </div>
+                        <div class="groupCountDiv">
+                        3 
+                        </div>
+                    </div>
+                    <div class="groupDiv">
+                        <div class="groupNameDiv">
+                        Group 1
+                        </div>
+                        <div class="groupCountDiv">
+                        2 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="chatInputDiv">
+                <input id="inputMessage" class="inputText" placeholder="Message" type="text" />
+                <input type="button" value="Send" id="btnSend" class="btnCustom" />
+            </div>
+            <div id="chatDiv">
+                <div  class="chatMessageDetail" data-message="12daw21dawdawwdawd21">
+                    <div class="chatSender">Muharrem Ercan</div>
+                    <div class="chatDate">12/12/2012 22:22:22</div>
+                    <div class="chatMessage">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. I</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="rightDiv">
+            <div id ="userHeaderDiv"> Selected Group Name</div>
+            <div id="numbersDiv">
+                    <div class="point" value="?">
+                        <div class="scrum-card">
+                            <span>?</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="0">
+                        <div class="scrum-card">
+                            <span>0</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="0.5">
+                        <div class="scrum-card">
+                            <span>0.5</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="1">
+                        <div class="scrum-card">
+                            <span>1</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="2">
+                        <div class="scrum-card">
+                            <span>2</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="3">
+                        <div class="scrum-card">
+                            <span>3</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="5">
+                        <div class="scrum-card">
+                            <span>5</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="8">
+                        <div class="scrum-card">
+                            <span>8</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="13">
+                        <div class="scrum-card">
+                            <span>13</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="20">
+                        <div class="scrum-card">
+                            <span>20</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="40">
+                        <div class="scrum-card">
+                            <span>40</span>
+                        </div>	
+                    </div>
+                    <div class="point" value="100">
+                        <div class="scrum-card">
+                            <span>100</span>
+                        </div>	
+                    </div>
+            </div>
+
+            <div id="userDiv">
+                    <div id="userHeaderDiv">
+                        User List
+                    </div>
+                    <div id="userButtonDiv">
+                        <input type="button" value="Hide" id="btnHide" class="btnHide"  />
+                        <input type="button" value="Clear" id="btnClear" class="btnClear"  />
+                    </div>
+                    <div id="userListDiv">
+                        <div class="userDiv">
+                            <div class="userNameDiv">
+                            Muharrem Ercan
+                            </div>
+                            <div class="userPointDiv">
+                            20  
+                            </div>
+                        </div>
+                        <div class="userDiv">
+                            <div class="userNameDiv">
+                            Test User
+                            </div>
+                            <div class="userPointDiv">
+                            13  
+                            </div>
+                        </div>
+                    </div>
+            </div>
+         </div>
+    </div>
+    
+</div>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.14/signalr.min.js" integrity="sha512-z1IHuM5a2zYLnhWvPGXxTgfLQVqrFpWSuBsYbWpDtus0FLa0ZCbCuMylKDhVx+L3xRjUfP0Mnzgt1ROpExTDrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

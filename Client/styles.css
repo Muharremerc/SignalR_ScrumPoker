@@ -1,0 +1,376 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:  #718693;
+}
+
+#page{
+	/* The main container div */
+	margin:20px auto 0;
+}
+
+#loginDiv{
+	
+	width:500px;
+	margin:100px auto 0;
+	/* The search form. */
+	background-color:#4C5A65;
+	padding:30px 20px 30px 20px;
+	height: 30px;
+	position:relative;
+
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+}
+
+fieldset{
+	border:none;
+}
+
+#searchInputContainer{
+	/* This div contains the transparent search box */
+	width:420px;
+	height:36px;
+	float:left;
+	margin-right:12px;
+}
+
+.inputText{
+	/* The search text box. */
+	text-indent: 10px;
+	width: 80%;
+	float: left;
+	border:none;
+	color:#4C5A65;
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	height:36px;
+	line-height:36px;
+	outline:medium none;
+	text-shadow:1px 1px 0 white;
+	border-radius:10px;
+}
+
+
+
+.btnCustom{
+	margin-left: 5%;
+	float: left;
+	width:15%;
+	height:36px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	color: #4C5A65;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+.btnCustom:hover{
+	background-position:left bottom;
+}
+
+#btnHide{
+	float: right;
+	width:10%;
+	height:36px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	color: White;
+	cursor:pointer;
+	border-radius:10px;
+	border: 1px lightskyblue solid;
+	border-radius: 10px;
+	background-color: hsl(220, 100%, 70%, 0.1);
+}
+#btnHide:hover{
+	float: right;
+	width:10%;
+	height:36px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	color: White;
+	cursor:pointer;
+	border-radius:10px;
+	border: 1px white solid;
+	border-radius: 10px;
+	background-color: hsl(220, 100%, 70%, 0.1);
+}
+#btnClear{
+	float: left;
+	width:10%;
+	height:36px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	color: White;
+	cursor:pointer;
+	border-radius:10px;
+	border: 1px lightskyblue solid;
+	border-radius: 10px;
+	background-color: hsl(220, 100%, 70%, 0.1);
+}
+#btnClear:hover{
+	float: left;
+	width:10%;
+	height:36px;
+	overflow:hidden;
+	text-transform:uppercase;
+	border:none;
+	color: White;
+	cursor:pointer;
+	border-radius:10px;
+	border: 1px white solid;
+	border-radius: 10px;
+	background-color: hsl(220, 100%, 70%, 0.1);
+}
+
+/* The Search tutorialzine.com / Search the Web radio buttons */
+
+
+#searchInContainer{
+	float:left;
+	margin-top:12px;
+	width:330px;
+}
+
+.scrum-card {
+	float :left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 5em;
+	border: 1px #000 solid;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px ;
+	padding: 0;
+	width: 140px;
+	height: 150px;
+	line-height: 150px;
+	white-space: nowrap;
+	text-align: center;
+}.scrum-card:hover {
+	float :left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 5em;
+	border: 1px blue solid;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px ;
+	padding: 0;
+	background-color: cadetblue;
+	padding: 0;
+	width: 140px;
+	height: 150px;
+	line-height: 150px;
+	white-space: nowrap;
+	text-align: center;
+}
+#mainDiv{
+	background-color: red;
+	margin: auto;
+	width: 90%;
+	margin-top: 1%;
+}
+
+#userNameDiv{
+	background-color: rgba(6, 19, 204, 0.1);
+	margin: auto;
+	width: 90%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 5em;
+	text-align: center;
+	margin-top: 1%;
+}
+
+#rightDiv{
+	width: 60%;
+	float: left;
+	margin-left: 1%;
+	
+}
+#numbersDiv{
+	border: 1px darkgoldenrod solid;
+	width: 100%;
+	float: left;
+	background-color: hsl(30, 100%, 65%, 0.1);
+}
+#userDiv
+{	
+	margin-top: 2%;
+	float: left;
+	width: 100%;
+	font-size: 25px;
+	color: darkturquoise;
+	text-align: center;
+}
+#userHeaderDiv
+{	
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	border: 1px cadetblue solid;
+	font-size: 35px;
+	color: darkturquoise;
+	text-align: center;
+}
+#userListDiv
+{	
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	border: 1px lightskyblue solid;
+	font-size: 25px;
+	color: lemonchiffon;
+	text-align: left;
+	background-color: hsl(220, 100%, 70%, 0.1);
+}
+
+.userDiv{
+	padding: 2% 2% 2% 2%;
+	width: 96%;
+}
+.userNameDiv{
+	float:left;
+	text-align: left;
+	width: 85%;
+}
+.userPointDiv{
+	float:left;
+	text-align: right;
+	width: 15%;
+}
+
+
+#leftDiv
+{	float: left;
+	width: 37%;
+	background-color: hsla(120, 100%, 50%, 0.1);
+}
+
+#chatDiv{
+	overflow-y: scroll;
+	max-height: 500px;
+	background-color: rgba(6, 19, 204, 0.1);;
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	font-size: 25px;
+	border: 1px darkturquoise solid;
+	color: darkturquoise;
+	text-align: center;
+}
+.chatMessageDetail{
+    width: 100%;
+}
+.chatSender{
+	float: left;
+	width: 48%;
+	font-size: 15px;
+	color: lemonchiffon;
+	text-align: left;
+	padding: 1% 1% 1% 1%;
+}
+.chatDate{
+	float: right;
+	width: 48%;
+	font-size: 15px;
+	color: lemonchiffon;
+	text-align: right;
+	padding: 1% 1% 1% 1%;
+}
+.chatMessage{
+	width: 96%;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	padding: 2% 2% 2% 1%;
+}
+
+#chatInputDiv{
+
+	float: left;
+	margin:auto;
+	width: 100%;
+	font-size: 25px;
+	background-color: hsl(30, 100%, 65%, 0.1);
+
+	text-align: center;
+}
+
+#groupsCreateDiv{
+	width: 90%;
+	margin: auto;
+	background-color: darkturquoise;
+}
+#groupsDiv{
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 200px;
+	float: left;
+	width: 100%;
+	font-size: 25px;
+	border: 1px darkgoldenrod solid;
+	color: darkturquoise;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#groupsHeaderDiv{
+	margin-bottom: 10px;
+	float: left;
+	width: 100%;
+	font-size: 35px;
+	color: darkturquoise;
+	text-align: center;
+}
+#groupsListDiv{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	float: left;
+	width: 100%;
+	font-size: 25px;
+	color: lemonchiffon;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.groupDiv{
+	width: 96%;
+}
+.groupDiv:hover{
+	width: 96%;
+	color: darkturquoise;
+}
+.groupNameDiv{
+	float:left;
+	text-align: left;
+	width: 85%;
+}
+.groupCountDiv{
+	float:left;
+	text-align: right;
+	width: 15%;
+}
+
+li {
+    list-style:none;
+    background-image:none;
+    background-repeat:none;
+    background-position:0; 
+}
+ul
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+
+
